@@ -1,0 +1,60 @@
+#navbar {
+  position: sticky;
+}
+
+.section1-color  {
+  margin: 0 0 50px 0 ;
+  background-color: #D2D2D2;
+}
+
+.aboutMe-background  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: #D2D2D2;
+}
+
+.container-size  {
+  margin: 0 70px 0 70px;
+}
+
+.image-size {
+  width: 450px;
+  border-width: 4px;
+  border-color: gold;
+  border-style: solid;
+  border-radius: 10%;
+  margin-top: 50px;
+}
+
+.image-padding  {
+  margin-top: 50px;
+}
+
+.intro-text {
+  color: white;
+  font-size: 25px;
+  padding-right: 50px;
+  width: 50px;
+}
+
+p  {
+  display: block;
+}
+
+.food-img {
+  width: 350px;
+  padding: 20px;
+  border-radius: 15%;
+}
+
+.park-img {
+  width: 425px;
+  padding: 20px;
+  border-radius: 15%;
+}
+
+.center   {
+  text-align: center;
+}
