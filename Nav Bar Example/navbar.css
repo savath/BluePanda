@@ -21,6 +21,22 @@ li:hover {
     background-color: #111;
 }
 
+.flex-container {
+  margin:100px;
+  display:flex;
+  justify-content: center;
+  height:150px;
+}
+
+.flex-container > div {
+  background-color: #FFF8DC;
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+  line-height: 120px;
+  font-size: 30px;
+}
+
 body {
   margin: 0px;
 }
