@@ -26,7 +26,7 @@ li:hover {
 .flex-container {
     display: flex;              /* Creates flexible container */
     justify-content: center;    /* Aligns flex items at center of container */
-    flex-wrap: flex;            /* Wraps item to next row if not enough space */
+    flex-wrap: wrap;            /* Wraps item to next row if not enough space */
     padding: 30px 120px;        /* top/down and left/right paddings */
 }
 
