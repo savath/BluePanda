@@ -21,6 +21,8 @@ li:hover {
     background-color: #111;
 }
 
+
+/* Rewrote container stuff. This is standard comment format. see how they're all aligned and easier to read */
 .flex-container {
     display: flex;              /* Creates flexible container */
     justify-content: center;    /* Aligns flex items at center of container */
@@ -50,6 +52,7 @@ body {
   margin: 0px;
 }
 
+/* Delete */
 /* Brent Portfolio styling - see how and why I style a certain way and read comments*/
 .brent-container {
   /* container to frame it within body */
