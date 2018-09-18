@@ -35,16 +35,13 @@ li:hover {
     overflow: hidden;           /* Hides images outside image container */
     height: 150px;              /* Height of image */
     width: 150px;               /* Width of image */
-    margin-right: 5px;          /* Spacing on right side of image between images
+    margin-right: 5px;          /* Spacing on right side of image between images */
     margin-bottom: 3px;         /* Spacing on bottom of image */
 }
 
 .image-style    {
     position: relative;     /* Position image relative to normal position with respect to image-flex-container class */
-    width: 150px;           /**
-                            *   Widght image within image-flex-contaai0iner flex 
-                            *   Might need to match shorter dimention to parent container image-flex-container
-                            */
+    width: 150px;           
     top: -30%;              /* need to move the image up 20-40% to center image within square - top% is x% from the top of the parent container */
 }
 
