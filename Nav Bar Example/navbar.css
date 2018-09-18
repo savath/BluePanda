@@ -55,13 +55,13 @@ body {
   width: 150px;
   overflow: hidden; /* the photo is inside this container - hide all parts of the image outside of the caontainer - more easily identified by the grey box I made */
   margin-bottom: 3px;/* if you just use margin, the size will duble, so choose add margins to 50% of the perimeter */
-  margin-right: 3px;
+  margin-right: 5px;
 
 }
 .brent-image-style {
   position: relative; /* Images are positioned with respect to .brent-image-container */
   width: 150px; /* if you take this approach, you need to match the shorter dimension to the parent container .brent-image-container */
-  top: -50%; /* need to move the image up 50% to center image within square - top% is x% from the top of the parent container */
+  top: -30%; /* need to move the image up 20-40% to center image within square - top% is x% from the top of the parent container */
 }
 
 /* known issue: I am only using photos where the hight is greater than width - how would you solve this problem? */
