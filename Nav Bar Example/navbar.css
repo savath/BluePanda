@@ -30,7 +30,7 @@ li:hover {
     padding: 30px 120px;        /* top/down and left/right paddings */
 }
 
-.iamge-flex-container {
+.image-flex-container {
     border: 1px solid #ccc;     /* Creates solid black/grey border */
     overflow: hidden;           /* Hides images outside image container */
     height: 150px;              /* Height of image */
