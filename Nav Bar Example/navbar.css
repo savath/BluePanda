@@ -41,38 +41,10 @@ li:hover {
 
 .image-style    {
     position: relative;     /* Position image relative to normal position with respect to image-flex-container class */
-    width: 150px;           
+    width: 150px;
     top: -30%;              /* need to move the image up 20-40% to center image within square - top% is x% from the top of the parent container */
 }
 
 body {
   margin: 0px;
 }
-
-/* Delete */
-/* Brent Portfolio styling - see how and why I style a certain way and read comments*/
-.brent-container {
-  /* container to frame it within body */
-  padding: 30px 120px; /* up/down and left/right paddings */
-  display: flex; /* flex display to organize things in a single row */
-  justify-content: center;  /* center content in a flex display */
-  flex-wrap: wrap; /* in flex view, if there is no space in the row, continue to next row */
-}
-.brent-image-container {
-  border: 1px solid #ccc; /* creating a black/grey border is optiona, just looks better */
-  height: 150px; /* specify height and width - make into a cube or you can choose a dynamic height */
-  width: 150px;
-  overflow: hidden; /* the photo is inside this container - hide all parts of the image outside of the caontainer - more easily identified by the grey box I made */
-  margin-bottom: 3px;/* if you just use margin, the size will duble, so choose add margins to 50% of the perimeter */
-  margin-right: 5px;
-
-}
-.brent-image-style {
-  position: relative; /* Images are positioned with respect to .brent-image-container */
-  width: 150px; /* if you take this approach, you need to match the shorter dimension to the parent container .brent-image-container */
-  top: -30%; /* need to move the image up 20-40% to center image within square - top% is x% from the top of the parent container */
-}
-
-/* known issue: I am only using photos where the hight is greater than width - how would you solve this problem? */
-/* second: try decreasing the browser width - do you see how this method is responsive to browser size? It would work on your phone */
-/* questions? */
