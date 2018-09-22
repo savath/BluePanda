@@ -48,3 +48,30 @@ li:hover {
 body {
   margin: 0px;
 }
+
+/* Mean App Block CSS */
+.app-container  {
+  background-color: #EAEDED;
+  width: 80%;
+  margin: auto; /* Only works if !DOCtype enabled */
+}
+
+.mean-container {
+  margin: 0 40px 0 40px;
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+
+.button {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  padding: 7px 10px;
+  margin-top: 10px;
+  background-color: #3390FF;
+}
+
+/* known issue: I am only using photos where the hight is greater than width - how would you solve this problem? */
+/* second: try decreasing the browser width - do you see how this method is responsive to browser size? It would work on your phone */
+/* questions? */
