@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Modal Example</title>
+  </head>
+
+  <body>
+    <div class="w3-container">
+      <h2>Modal Image Example</h2>
+      <p>Click the image :) :</p>
+
+      <img src="https://www.worldofbuzz.com/wp-content/uploads/2018/02/pork-belly-featured-image.jpg" style="width:30%;cursor:zoom-in"
+  onclick="document.getElementById('modal01').style.display='block'">
+
+      <!-- Modal Contents -->
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-display-topright"></span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img src="https://www.worldofbuzz.com/wp-content/uploads/2018/02/pork-belly-featured-image.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
