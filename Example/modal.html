@@ -12,14 +12,14 @@
       <h2>Modal Image Example</h2>
       <p>Click the image :) :</p>
 
-      <img src="https://www.worldofbuzz.com/wp-content/uploads/2018/02/pork-belly-featured-image.jpg" style="width:30%;cursor:zoom-in"
-  onclick="document.getElementById('modal01').style.display='block'">
+      <img src="https://www.worldofbuzz.com/wp-content/uploads/2018/02/pork-belly-featured-image.jpg"
+  onclick="clickMe()">
 
       <!-- Modal Contents -->
-      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <div id="modal01" class="w3-modal" onclick="closeImage()">
         <span class="w3-button w3-display-topright"></span>
         <div class="w3-modal-content w3-animate-zoom">
-          <img src="https://www.worldofbuzz.com/wp-content/uploads/2018/02/pork-belly-featured-image.jpg" style="width:100%">
+          <img src="https://www.worldofbuzz.com/wp-content/uploads/2018/02/pork-belly-featured-image.jpg">
         </div>
       </div>
     </div>
