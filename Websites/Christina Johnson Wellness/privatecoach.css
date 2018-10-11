@@ -1,0 +1,101 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+.container {
+  padding: 30px 64px;
+  background-color: yellow;
+  width: 80%;
+}
+*/
+
+.container  {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  /*
+  margin-right: auto; /* Centers container */
+  /*rgin-left: auto;  /* Centers container */
+  /*rgin-top: 20px;
+  */
+  margin: auto auto;
+  max-width: 1000px;
+  flex: 100%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  /*
+  font-size: 48px;
+  */
+  font-size: 24px;
+}
+
+.xlarge-font {
+  font-size: 36px
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+.bgimg {
+  background-image: url("http://demo.hotjoomlatemplates.com/paradise/images/carousel/slide2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
