@@ -1,0 +1,66 @@
+ul.a {
+  list-style-type: circle;
+  color: black;
+  opacity: 0.8;
+}
+
+.bgimg {
+  background-image: url("http://theladiesthatlift.com/wp-content/uploads/2014/10/20140912-0506-copy-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container  {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  flex: 100%;
+}
+
+.content-container  {
+  padding: 10px 16px;
+}
+
+.grid-container  {
+  /*
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 30px 0; 
+  */
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 15px;
+}
+
+.grid-image-container {
+  /*
+  border: 1px solid #ccc;
+  */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  height: 225px; 
+  width: 225px;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: white;
+  border: 3px solid white;
+}
+*/
+
+
+
