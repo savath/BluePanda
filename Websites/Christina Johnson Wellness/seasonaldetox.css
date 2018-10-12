@@ -1,0 +1,116 @@
+
+ul.a {
+  list-style-type: circle;
+}
+
+.bgimg {
+  background-image: url("http://theladiesthatlift.com/wp-content/uploads/2014/10/20140912-0506-copy-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container  {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  flex: 100%;
+}
+
+.grid-container  {
+  /*
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 30px 0; 
+  */
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+/*
+.grid-image-container {
+  /*
+  border: 1px solid #ccc;
+  */
+  /*
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  height: 225px; 
+  width: 225px;
+  
+}
+*/
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: white;
+  border: 3px solid white;
+}
+*/
+
+.detox-title  {
+  padding: 10px;
+  /*
+  margin-right: auto; /* Centers container */
+  /*rgin-left: auto;  /* Centers container */
+  /*rgin-top: 20px;
+  */
+  margin: auto auto;
+  max-width: 1000px;
+  flex: 100%;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 0 20px 20px 50px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  margin-top: 20px;
+}
+
+.large-font {
+  /*
+  font-size: 48px;
+  */
+  font-size: 22px;
+}
+
+.xlarge-font {
+  font-size: 36px;
+  
+}
+
+p {
+  text-align: center;
+}
+
+.a b {
+  color: purple;
+}
