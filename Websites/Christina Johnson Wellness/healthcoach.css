@@ -31,7 +31,7 @@ ul.a {
   padding: 30px 0 30px 0; 
   */
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   justify-content: center;
   gap: 15px;
 }
@@ -44,6 +44,7 @@ ul.a {
   overflow: hidden;
   height: 225px; 
   width: 225px;
+  
 }
 
 img {
@@ -62,5 +63,22 @@ img {
 }
 */
 
+.bc {
+  background-color: red;
+  padding: 0 8px;
+}
 
+.bc1 {
+  background-color: blue;
+}
 
+.title  {
+  text-align: center;
+}
+
+.title-line {
+  width: 200px;
+  height: 1x;
+  border: 1px solid #d95059; 
+  margin: auto auto 20px auto;
+}
