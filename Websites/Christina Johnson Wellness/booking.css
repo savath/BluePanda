@@ -36,6 +36,14 @@ body, html {
   text-align: center;
 }
 
+.title-line {
+  width: 400px;
+  height: 1x;
+  border: 1px solid #d95059; 
+  margin: auto auto auto auto;
+}
 
-
+.title  {
+  text-align: center;
+}
 
