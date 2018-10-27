@@ -1,0 +1,525 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2  {
+  font-family: 'Rubik', sans-serif;
+}
+
+h4  {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+
+h5  {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+section {
+  display: block;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.8;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ul  {
+  margin-top: 0;
+}
+
+/** When width is set, stays that width */
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+.fa1  {
+  text-align: center;
+  display: inline-block;
+    width: 100%;
+}
+
+.bg-home {
+  background-image: url("https://themesdesign.in/glamium/images/bg-1.jpg");
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: auto;
+}
+
+.bg-light {
+    background-color: #f7f7f7 !important;
+}
+
+.bg-footer {
+    background-color: #323232;
+}
+
+.bg-footer-alt {
+    background-color: #272727;
+    padding: 15px 0px;
+}
+
+.social-icon li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.4s;
+}
+
+.section {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.bg-overlay {
+  background-color: #323232;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.home-center {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.home-desc-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-title {
+  justify-content: center!important;
+}
+
+.p-text  {
+  font-size: 20px;
+  color: #ededed;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 1rem!important;
+}
+
+.line-height-1_6  {
+  line-height: 1.6;
+}
+
+/**
+.home-desc {
+  font-size: 20px;
+  color: #ededed;
+  max-width: 700px;
+  margin: 0 auto;
+}
+*/
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/**
+@media (max-width: 768px)
+.home-title {
+    font-size: 80px;
+}
+*/
+
+/**
+.justify-content-center {
+  justify-content: center!important;
+}
+*/
+
+.row {
+  display: flex;
+  /** flex-wrap: wrap; */
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    /** width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-lg-8 {
+  position: relative;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 1px;
+}
+
+.col-lg-10 {
+  position: relative;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-lg-12 {
+  position: relative;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  min-height: 1px;
+}
+
+.col-md-12  {
+  position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.home-title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 42px;
+}
+
+.title-heading {
+  font-size: 28px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.title-heading:before {
+  bottom: 5px;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  width: 100px;
+  background: #3282ea;
+}
+
+.title-heading:after {
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+  background: #3282ea;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.above-btn  {
+  margin-top: 3rem;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+.mt-3, .my-3 {
+  margin-top: 1rem!important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.mr-4 {
+  margin-right: 1.5rem;
+}
+
+.mt-5, .my-5 {
+  margin-top: 3rem!important;
+}
+
+.mr-2, .mx-2 {
+    margin-right: .5rem!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+}
+
+.pt-5 {
+  padding-top: 3rem!important;
+}
+
+.pr-3, .px-3 {
+    padding-right: 1rem!important;
+}
+
+.mdi:before, .mdi-set {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.arrow:before  {
+  content: "\F054";
+  font-size: 16px;
+  margin-right: .5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 26px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;  /** Clears underline in btn */
+}
+
+.btn-custom {
+  color: #fffcff;
+  font-size: 15px;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+  letter-spacing: 0.5px;
+  background-color: #3282ea;
+}
+
+.about-heading  {
+  font-size: 22px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.blue-text {
+  color: #3282ea;
+}
+
+.about-title {
+  font-size: 28px;
+}
+
+.progress-bar {
+  display: flex;
+  height: 5px;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+}
+
+.progress-bar-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #3282ea;
+  transition: width .6s ease;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.about-lavel h3 {
+    font-size: 32px;
+}
+
+.text-muted {
+    color: #888 !important;
+}
+
+.title-desc {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left!important;
+}
+
+.fa1:before  {
+  display: inline-block;
+}
+
+.mdi:before, .mdi-set {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.mdi-chevron-right:before {
+    content: "\F142";
+}
+
+.mdi-phone:before {
+    content: "\F3F2";
+}
+
+.mdi-email:before {
+    content: "\F1EE";
+}
+
+.mdi-web:before {
+    content: "\F59F";
+}
+
+.mdi-airplay:before {
+    content: "\F01F";
+}
+
+.mdi-bank:before {
+    content: "\F070";
+}
+
+.mdi-domain:before {
+    content: "\F1D7";
+}
+
+.mdi-google-drive:before {
+    content: "\F2B6";
+}
+
+.services-icon {
+  border-color: #3282ea;
+  background-color: #3282ea;
+  width: 70px;
+  height: 70px;
+  /** border: 2px solid; */
+  border-radius: 50%;
+  text-align: center;
+}
+
+.services-content {
+    overflow: hidden;
+}
+
+.services-box {
+  margin-top: 24px;
+}
+
+.footer-title h5 {
+    color: #f7f7f7;
+    letter-spacing: 0.5px;
+}
+
+.footer-info {
+    color: #bcbcbc;
+}
+
+.footer-link a {
+    color: #bcbcbc;
+    line-height: 40px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.footer-link {
+    float: left;
+}
+
+.client-images img {
+    max-height: 60px;
+    width: auto !important;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+
+.client-images img:hover {
+    opacity: 0.6;
+}
+
+.newsletter input {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7)!important;
+    border: none;
+    outline: none !important;
+    padding-right: 75px;
+    padding-left: 15px;
+    background-color: rgba(166, 174, 185, 0.25);
+    border-radius: 5px;
+}
+
+.newsletter button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: none !important;
+    border-radius: 0px 5px 5px 0px;
+    padding: 2px 12px;
+    font-size: 25px;
+}
+
+.newsletter form {
+    position: relative;
+    max-width: 400px;
+}
+
+.pull-none {
+    text-align: center !important;
+    float: none !important;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
