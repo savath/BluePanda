@@ -1,8 +1,9 @@
 $(document).ready(function(){
     // Activate Carousel
-    $("#myCarousel").carousel({interval: 3000, pause: "hover"});
+    $("#myCarousel").carousel({interval: 3000, pause: "false"});
 
     // Enable Carousel Indicators
+    /*
     $(".item1").click(function(){
         $("#myCarousel").carousel(0);
     });
@@ -12,6 +13,7 @@ $(document).ready(function(){
     $(".item3").click(function(){
         $("#myCarousel").carousel(2);
     });
+    */
 
     // Enable Carousel Controls
     $(".left").click(function(){
