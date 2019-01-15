@@ -1,0 +1,51 @@
+Deborah Pike Coaching Website Comments
+
+HOME PAGE
+  - Navbar:
+      - Height too short
+      - Font too small
+      - Suggest having a drop down menu rather than a modal popping up since it seems necessary to have a whole modal page 
+        pop up for a few selection
+      - Suggest using different colors for navbar. Black doesn't look visually appealing for this site, possibly because
+        the background image is already dark.
+
+  - Header Background Image:
+      - Give more space between the three line wordings
+
+  - "See What We Do" Section:
+      - Add quotation marks (" ") to the quotes and a hyphen ( - ) before the author
+
+  - "Biography" Section:
+      - is the gold border around her picture suppose to be offset?
+
+  - Section under "Biography":
+      - Add the section title for consistency since all other sections has it
+      - It says "sign in..." but i don't see where to sign in.
+      
+ABOUT PAGE
+  - Suggest shifting her face more to the left so its not too close to the vertical gold line and description
+
+  - "What Do You Really Want?" Box:
+      - Maybe have the box horizontally fill 100% of the div width, equal top/bottom margin between her picture and 
+        "My Biography"
+        (Ask me to clarify if confused)
+
+  - "My Biography" Section:
+      - Might look cleaner if paragraph within left and right column have equal height. 
+
+  - "People Are Talking" Section:
+      - Have height of the "Full time job change" box vertically fill to match the height of the two left boxes
+      
+SERVICES PAGE
+  - "Proctor Gallagher Institute" Section:
+  
+CONTACT PAGE
+  - Align "Send A" to the left to line up with "Message"
+  
+FOOTER SECTION
+  - It's too big for me. Maybe shrink the height and add some icons to make it visually appealing.
+  
+OVERALL COMMENTS
+  - The site color choice is too dark for my liking. Like in the Home page, the "My Programs" section background is 
+    pitch black. Maybe it might look visually appealing and not boring if the colors were light brown or something on the
+    lighter gray/brown. Just my opinion.

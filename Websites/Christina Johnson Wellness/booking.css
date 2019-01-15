@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+}
+
+.bgimg {
+    background-image: url("http://theladiesthatlift.com/wp-content/uploads/2014/10/20140912-0506-copy-2.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: white;
+  border: 3px solid white;
+}
+
+.line {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.btn  {
+  font-size: 20px;
+  border: 3px solid white;
+  display: inline-block;
+  padding: 16px 24px;
+}
+
+.booking-text  {
+  font-size: 21px;
+  text-align: center;
+}
+
+.title-line {
+  width: 400px;
+  height: 1x;
+  border: 1px solid #d95059; 
+  margin: auto auto auto auto;
+}
+
+.title  {
+  text-align: center;
+}
+

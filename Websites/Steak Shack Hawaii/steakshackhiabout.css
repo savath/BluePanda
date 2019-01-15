@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+}
+
+ul {
+  margin: 0;
+}
+
+ul li {
+  float: right;
+  display: block;
+  color: white;
+  line-height: .8;
+  font-size: 20px;
+  padding: 14px 16px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+  background-color: green;
+}
+
+.bgimg {
+  background-image: url("https://steakshackhi.com/bg-3.dce1d81c000604b09698.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 50%;
+  position: relative;
+}
+
+.container  {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: white;
+  border: 3px solid white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+  font-size: 18px;
+}
+
+.quote-box  {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px 15px;
+  background-color: #F0F0F0;
+}
+
+.about-title  {
+  text-align: center;
+}
+
+.span-color {
+  color: #4bace8;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}

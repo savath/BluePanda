@@ -1,0 +1,8 @@
+img {
+  width: 30%;
+  cursor: zoom-in;
+}
+
+div > img {
+    width: 100%;
+}
